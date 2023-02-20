@@ -15,7 +15,7 @@ interface ColorsProps {
     blue: '#A6D1E6',
     black: '#3D3C42',
     fullblack: "#000000", 
-    whitegray: '#D9D9D9',
+    whitegray: '#D6D6D6',
     gray: '#413F42',
     red: '#EB1D36'
   };

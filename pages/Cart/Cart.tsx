@@ -1,11 +1,18 @@
-import { Box } from '@chakra-ui/react';
+import { Box, Flex} from '@chakra-ui/react';
 import type { NextPage } from 'next';
 
 const Cart: NextPage = () => {
   return (
-    <Box w="100%">
-      
-    </Box>
+    <>
+    <Box display="flex" alignItems="center" justifyContent="space-between">
+  Box with Flex props
+</Box>
+
+
+<Flex align="center" justify="center">
+  Flex Container
+</Flex>
+</>
   );
 };
 
